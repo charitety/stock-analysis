@@ -1,1 +1,2 @@
 # stock-analysis
+Program that contains a function which calculates the standard deviation of the closing prices of a company's stock in weekly periods. In this one AMZM and META are used as examples. This is only for demonstrative educational purposes. 

@@ -37,12 +37,14 @@ def stock_stdev(lst,name):
     name : str
         Name of the stock.
 
-      Returns
-      -------
-      Lines f strings for each of week analyzed.
-      """
-
+    Returns
+    -------
+    Lines f strings for each of week analyzed.
+    """
     week = 0
     for price in lst:
         week += 1
-        print(f"")
+        print(f"Standard Deviation for {name} on Week {week}: {st.stdev(price)}")
+
+stock_stdev(META,"META")
+stock_stdev(AMZN,"AMZN")
