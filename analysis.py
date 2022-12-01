@@ -39,7 +39,7 @@ def stock_stdev(lst,name):
 
     Returns
     -------
-    Lines f strings for each of week analyzed.
+    Lines of f strings for each week analyzed.
     """
     week = 0
     for price in lst:
